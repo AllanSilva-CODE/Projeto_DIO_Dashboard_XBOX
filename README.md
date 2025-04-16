@@ -4,7 +4,7 @@
 ## Introdução e Objetivo
 - Este dashboard foi desenvolvido usando **dados fictícios** referentes ao período de um ano das assinaturas dos clientes de diferentes planos e passes da empresa XBOX. 
 - O objetivo é fornecer informações sobre a performance dos serviços XBOX ao longo de um ano, permitindo o acompanhamento das receitas dos tipos de assinaturas, renovações e o impacto de cupons de desconto no faturamento final.
-    - [Link para os dados do dashboard]()
+    - [Link para os dados do dashboard](dados_xbox_DIO.xlsx)
 
 ## Visão geral dos dados
 1. Subscriber ID
