@@ -102,6 +102,7 @@
 -  O Minecraft Pass tem uma adesão muito maior, provavelmente por ser liberado com dois tipos de plano (Standard e Ultimate), enquanto o EA Play está limitado ao plano Ultimate.
     - **Sugestão: Tornar o EA Play acessível para o plano Standard (com funcionalidades limitadas e preços menores) isto pode aumentar a adesão. Tambem Oferecer combos de passes com desconto para incentivar múltiplas assinaturas por cliente.**
 ---
+- **Gráficos** 
 - **Gráfico de barras verticais / Total Value of Subscription Type or Plan:**
     - Este gráfico de barras verticais apresenta a **distribuição da receita total obtida a partir dos diferentes tipos de inscrição e dos planos oferecidos**. O objetivo é identificar os principais geradores de receita, entender o comportamento dos clientes e sugerir ações estratégicas.
     1. Monthly (R$ 3.571,00) = (46,78%): Valor total das assinaturas mensais.
@@ -119,48 +120,86 @@
     - Revisão do plano Core: Avaliar se ele deve ser mantido como está, reposicionado como um plano de entrada gratuito ou mesmo descontinuado.
     - Foco no plano Ultimate: Como principal fonte de receita, o plano Ultimate deve receber atenção especial para retenção.
 
+- **Gráfico de linhas / Total Monthly Automatic Renewals:**
+    - Este gráfico de linhas mostra a **tendência do número total de renovações automáticas de assinaturas ao longo dos meses (janeiro a dezembro)**. O objetivo é visualizar o padrão das renovações e identificar períodos de maior ou menor recorrência de assinaturas.
+    - Nos meses (Março até Novembro) os valores 30 e 31 se repetiram
+    - É possível observar baixas significativas entre os meses (janeiro,Fevereiro) Já que só teve 4 assinantes neste periodo.
+    - O mês de Dezembro a razão é uma queda da metade das assinaturas.
+    - meses de baixa renovação podem ser analisados como falta de comunicação, perda de interesse ou ausência de novidades no serviço.
+- Insights:
+    - Campanhas de retenção direcionadas: Para meses com tendência de queda, é possível planejar ações de retenção, como envio de e-mails de lembrete, ofertas exclusivas ou melhorias no conteúdo antes da data de renovação.
 
-4. Total Monthly Automatic Renewals:
+- **Gráfico de semicírculo / Automatic Subscription Renewal Fee:**
+    - Este gráfico em formato de gauge mostra a **taxa atual de renovação automática das assinaturas**, atualmente em 50,17%. Essa taxa indica que aproximadamente metade dos usuários opta por manter a renovação automática ativa.
+    - Um valor abaixo de 60% pode ser um sinal de que os clientes ainda têm inseguranças ou não percebem vantagens claras em manter a renovação automática.
+- Insights:
+    - Melhorar comunicação de valor: Investir em destacar os benefícios da renovação contínua, como acesso ininterrupto, descontos ou recompensas.
+    - Incentivos para ativação da renovação automática: Implementar benefícios exclusivos para quem ativa a renovação automática pode elevar essa taxa.Exemplo: 1 mês gratuito após 6 renovações consecutivas.
+    - Segmentação de campanhas: Analisar o perfil de usuários que não ativam a renovação pode ajudar a criar campanhas específicas para esse público, com mensagens mais personalizadas.
 
-Este gráfico de linhas mostra a tendência do número total de renovações automáticas de assinaturas ao longo dos meses (janeiro a dezembro).
-Os números acima de cada ponto da linha indicam o valor exato de renovações automáticas para cada mês.
-É possível observar variações no número de renovações automáticas ao longo do ano.
-5. Automatic Subscription Renewal Fee:
+- **Gráfico de barras horizontais comparativas / Total Cumulative Subscription and Pass Prices by Plan:**
+    - Este gráfico mostra a **comparação do valor total acumulado por plano, incluindo preço das assinaturas, passes de jogos (Minecraft e EA Play) e cupons usados**.
+    1. Subscription Price: Valor total das assinaturas. Linha azul
+        - Com um total de R$2.935,00 nos 3 planos, tendo 38,45% do valor total do ano.
+    2. Minecraft Season Pass: Valor total acumulado de passes do Minecraft. Linha verde
+        - Se destaca nos planos que o contem.
+    3. EA Play Season Pass: Valor total acumulado de passes do EA Play.Linha vermelha
+        - Tem o maior ganho individual
+    4. Coupon Value: Valor total de cupons aplicados no plano.Linha roxa
+        - Teve o valor mais alto no Standard
+- Insights:
+    - Entender a composição de valor por plano: Saber qual parte da receita vem dos passes (Minecraft / EA Play) ou dos cupons utilizados ajuda a ajustar os planos para melhorar a percepção de valor. Se os passes agregam muito valor, podem ser promovidos como diferenciais.
+    - Reposicionar planos com menor valor acumulado: Planos como o Core, se apresentarem pouco retorno, podem ser ajustados em termos de preço, benefícios ou foco (ex: torná-lo um plano de entrada gratuito com upsell posterior).
 
-Este gráfico de semicírculo (gauge chart) indica a porcentagem da taxa de renovação automática de assinaturas, que está em 50,17%.
-Ele compara a taxa atual com o intervalo de 0% a 100%.
-6. Total Cumulative Subscription and Pass Prices by Plan:
+- **Gráfico combinado (linhas e barras) / Total Cumulative Value per Month:**
+    - Este gráfico exibe a **relação entre o valor gerado e o uso de cupons**.combinando três informações:
+    1. Barras verdes: Soma do valor total acumulado.
+        - Se manteve constante do mês de março até novembro, o pico mais alto foi outubro com R$832,00, mais baixo foi junho com R$ 770,00 uma diferença de 62 reais (7,46%). 
+    2. Linha azul escura: Média de valores de cupons aplicados por mês.
+        - De março até novembro a maior média foi no mês de junho com R$ 9,20, a menor foi em março com R$ 7,86,00.
+    3. Linha verde clara: Contagem de cupons utilizados por mês.
+    - De março até novembro a contagem se repete, 25 e 26 cupons. Neste mesmos meses o a média de rendimento do Minecraft foi de R$ 400,00 e da Ea Play de R$ 300,00.
+- Insights:
+    - Há um ponto de equilíbrio entre o valor do cupom e a propensão de compra. Cupons muito altos podem não gerar retorno proporcional. É importante testar limites de desconto e analisar elasticidade de preço para cada perfil de cliente.
+    - Considerando o alto peso dos passes, campanhas promocionais com foco específico em passes (e não nos planos) podem ser mais eficientes. Por exemplo: Combo promocional: “Assine o Ultimate + Passe EA Play com 20% OFF”
 
-Este gráfico de barras horizontais comparativas mostra o preço total acumulado de diferentes planos de assinatura e passes (Minecraft e EA Play), discriminados por tipo de plano (Ultimate, Standard, Core).
-Cada barra é dividida em segmentos coloridos representando:
-Soma de Subscription Price: Valor total dos preços das assinaturas do plano.
-Soma de Minecraft Season Pa...: Valor total relacionado ao "Minecraft Season Pass" para aquele plano.
-Soma de EA Play Seaso...: Valor total relacionado ao "EA Play Season" para aquele plano.
-Soma de Coupon Value: Valor total de cupons utilizados para aquele plano.
-Os valores ao lado de cada barra indicam o valor total acumulado para cada plano. Este visual permite comparar o valor total de diferentes ofertas e a contribuição de cada componente (assinatura, passes, cupons).
-7. Total Cumulative Value per month:
+4. **Insights Extras**:
 
-Este gráfico de linhas e barras combinadas exibe a evolução do valor total acumulado ao longo dos meses (janeiro a dezembro).
-A linha azul escura representa a "Soma de Total Value" acumulada por mês, referenciada no eixo vertical esquerdo (R$).
-As barras verdes representam a "Média de Coupon Value" por mês, também referenciada no eixo vertical esquerdo (R$).
-A linha verde clara representa a "Contagem de Coupon Value" por mês, referenciada no eixo vertical direito (R$ 20).
-Este visual permite analisar a tendência da receita total, o valor médio dos cupons utilizados e a quantidade de cupons utilizados ao longo do tempo. 
+    - Aumentar o Valor Médio por Cliente: O valor médio de cada cliente  por transação é de R$ 25,87. O objetivo é conseguir aumentar esse valor em para R$ 30,00 ,(15,95%) — por exemplo, com ofertas de produtos extras, combos ou um programa de fidelidade.
+        - Exemplo: Se cada pessoa gastar R$ 5,00 a mais, o valor médio vai pra R$ 30,87. Se forem feitas 1.000 vendas no mês, isso representa R$ 5.000,00 a mais de receita no mês.
 
+    - Campanhas de Lançamento e Atração Inicial: Campanha de pré-lançamento com vantagens especiais. 
+        - Exemplo: destravar 1 mês grátis ou liberar conteúdos antes do lançamento pode ajudar a chamar atenção.
 
+    - Atrair com as Redes Sociais: Usar anúncios pagos (Google Ads, redes sociais). Importante direcionar os anúncios para o público que mais combina com o serviço. Parcerias com influenciadores do nicho, pessoas que o público já segue e confia podem ajudar muito a divulgar.
 
+    - Criar um plano especial para os primeiros inscritos. Pode oferecer benefícios únicos, como acesso vitalício a algumas funções ou bônus exclusivos.
 
+    - Promoções Inteligentes e Testes de Upgrade: Promoções com upgrade automático por um tempo limitado para o cliente vizualizar os bônus do plano superior ao seu.
+        - Exemplo: quem assinar o plano básico (Standard) ganha acesso ao plano mais completo (Ultimate) por 30 dias.
 
+    - Mostrar conteúdos relevantes logo no início: Disponibilizar videos em redes sociais ou no site do serviço com o intuito de ensinar o cliente a usar os serviços e mostrar vantagens. Personalizar essa experiência ajuda o cliente a ver valor rapidamente.
 
-4.Análise e Insights Gerais:
-
-
-Após explicar cada visual, faça uma análise geral dos principais insights que o dashboard proporciona.
-Quais são as tendências mais importantes?
-Há algum ponto que merece atenção (ex: baixa adesão a um tipo de assinatura, alto número de clientes sem renovação automática)?
-Como essas informações podem ser usadas para tomar decisões de negócios? (ex: campanhas de marketing focadas nos tipos de assinatura mais populares, incentivar a renovação automática, analisar a efetividade dos cupons).
-
-- O valor total médio de R$ 25,87 indica que, em média, cada cliente está contribuindo com esse montante por transação. Embora esse número represente uma boa base de faturamento, ele também revela uma oportunidade clara de crescimento: ao aumentar ligeiramente o ticket médio – por exemplo, com upsell de produtos complementares, combos promocionais ou programas de fidelidade – é possível ampliar significativamente a receita total sem necessariamente aumentar o número de clientes.
-Exemplo: Um aumento de apenas R$ 5,00 no ticket médio elevaria o valor para R$ 30,87. Em 1.000 vendas mensais, isso significaria um incremento de R$ 5.000,00 na receita mensal.
+    - Incentivar a Renovação Automática: Dar desconto progressivo pra quem ativa a renovação automática.
+        - Exemplo: 10% de desconto na segunda fatura, 15% na terceira.
 
 
-5.Conclusão:
+    - Distribuição de cupons de desconto: Compartilhar cupons de boas-vindas com prazo curto, ofertas que o cliente ganha um cupom de desconto por cada amigo que indicar.
+
+    - Análise de Dados e Feedback dos Clientes: Recorrer a pesquisas rápidas nos primeiros 7 a 14 dias. Isso ajuda a entender o que está funcionando e o que pode melhorar.
+
+    - Criar um canal direto com os usuarios do serviço.
+        - Exemplo: Um grupo no Discord ou um fórum fechado para ouvir opiniões e sugestões.
+
+    - Gamificação para Engajamento e Retenção: Criar um sistema de pontos ou recompensas por fidelidade para engajar os clientes e não criar o sentimento de esquecimento do cliente por parte da XBOX.
+        - Exemplo: o cliente ganha conquistas por continuar renovando o plano ou por fazer upgrades.
+
+
+5. **Conclusão**:
+    - Analisando os dados do dashboard, fica claro que o serviço da XBOX tem um bom potencial de crescimento, mas ainda existem pontos importantes que precisam de atenção para melhorar os resultados. O gasto médio por cliente é baixo (R$ 25,87), o que mostra que os usuários são sensíveis ao preço e usam bastante cupons. Indicando que precisa criar estratégias de upsell e fidelização, mostrando mais valor nos planos mais completos como o Ultimate, que hoje já representa mais de 70% da receita. Por outro lado, vemos que clientes com maior valor de compra estão deixando o serviço (62% deles não renovaram), o que liga um alerta. Talvez essas pessoas estejam esperando mais benefícios, ou sentindo falta de novidades. A criação de campanhas específicas e benefícios exclusivos pode ajudar a reter esse público. A adesão aos passes de jogos também chama atenção, principalmente o de Minecraft, com 66% de uso entre os clientes. Isso mostra que há um alto interesse em conteúdo extra, o que abre oportunidades para criar combos, pacotes promocionais ou testes gratuitos, incentivando a assinatura de múltiplos serviços. A renovação automática ainda está em 50,17%, o que é baixo. Melhorar a comunicação sobre seus benefícios e oferecer vantagens exclusivas para quem ativa a renovação pode ser um bom caminho. Por fim, os dados mostram que os cupons influenciam muito nas decisões de compra, então vale usar isso a favor em campanhas estratégicas e bem planejadas.
+
+**Ferramentas e Tecnologias Utilizadas:**
+- Power BI (DAX, Power Query)
+- Excel (Modelagem de dados)
+- Figma (Design)
+- GitHub (versionamento)
